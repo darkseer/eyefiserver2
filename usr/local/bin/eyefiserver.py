@@ -915,11 +915,11 @@ class EyeFiRequestHandler(BaseHTTPRequestHandler):
         credentialElement.appendChild(credentialElementText)
 
         snonceElement = doc.createElement("snonce")
-        snonceElementText = doc.createTextNode("99208c155fc1883579cf0812ec0fe6d2")
+        snonceElementText = doc.createTextNode("69804285196b055a5540f9b7f0cd1211")
         snonceElement.appendChild(snonceElementText)
 
         transfermodeElement = doc.createElement("transfermode")
-        transfermodeElementText = doc.createTextNode("2")
+        transfermodeElementText = doc.createTextNode("33282")
         transfermodeElement.appendChild(transfermodeElementText)
 
         transfermodetimestampElement = doc.createElement("transfermodetimestamp")
@@ -927,7 +927,7 @@ class EyeFiRequestHandler(BaseHTTPRequestHandler):
         transfermodetimestampElement.appendChild(transfermodetimestampElementText)
 
         upsyncallowedElement = doc.createElement("upsyncallowed")
-        upsyncallowedElementText = doc.createTextNode("false")
+        upsyncallowedElementText = doc.createTextNode("true")
         upsyncallowedElement.appendChild(upsyncallowedElementText)
 
 
